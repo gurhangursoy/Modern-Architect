@@ -13,7 +13,7 @@
     --white: #ffffff;
   }
 
-body {
+body p {
     font-size: 14px;
 }
 
@@ -39,6 +39,13 @@ body {
   .content-first {
       background: #F5480C !important;
   }
+
+  .content-first:hover {
+    background: #fff !important;
+    color: #F5480C !important;
+    border: 1px solid #F5480C;
+}
+
 
   /* Button Ends*/
 
@@ -73,17 +80,6 @@ body {
 
 /* Content Second Starts */
 
-.shadow-orange {
-  position: absolute;
-  min-width: 85%;
-  min-height: 100%;
-  background:#e04f15d2;
-  border-radius: 53% 47% 53% 47% / 45% 50% 50% 55% ;
-  z-index: 2;
-  left: -10px;
-  
-}
-
 .text {
   position: absolute;
   z-index: 3;
@@ -109,11 +105,25 @@ body {
     border: 1px solid #F5480C !important;
     padding: 10px;
 }
+
+.content-second:hover {
+  color: #fff !important;
+  background: #F5480C !important ;
+  padding: 10px;
+}
 /* Button End*/
 
   .fa-play-circle {    
     color: #F5480C !important;
   }
+
+  .fa-play-circle:hover {    
+    color: #ffffff !important;
+    background:#F5480C !important;
+    border: 1px solid #F5480C !important;
+    border-radius: 50%;
+  }
+
 
   .f-last-content p {
       font-size: 10px;
@@ -170,12 +180,13 @@ body {
  }
 
  .carousel-inner img {
-    width: 90%;
+    width: 100%;
+    height: 50%;
  }
 
  .carousel-content {
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     left: 0;
     background: white;
     padding: 30px;
@@ -186,6 +197,7 @@ body {
 
 /* Carousel Section Ends */
 
+/* BLOCKQUOTE */
 
 .blockquote::before {
  content: "\201d";
@@ -195,11 +207,29 @@ body {
 }
 
 
+/* BRANDS */
+
+#partners h1 {
+  text-align: center;
+  margin: auto !important;
+}
+#partners p {
+  text-align: center;
+  margin: auto !important;
+}
+
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
 
 /* FOOTER */
 
 #mail {
-  color: #F5480C;
+  color: #f5460cc7;
+  font-size: 22px;
 }
 
 ul {
@@ -211,9 +241,22 @@ ul li {
   list-style: none;
 }
 
+ul li:hover {
+  color: #F5480C !important;
+  cursor: pointer;
+}
+
 .fab {
   margin-top: 5px;
   color:#b4b3b3;
+  border: 1px solid #b4b3b3;
+  border-radius:50%;
+  padding: 10px;
+}
+
+.fab:hover {
+  background: #F5480C !important;
+  color:#fff;
   border: 1px solid #b4b3b3;
   border-radius:50%;
   padding: 10px;

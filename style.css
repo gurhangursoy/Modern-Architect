@@ -7,11 +7,31 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-:root {
-    --orange: #F5480C;
-    --orange-shadow: #DA5218;
-    --white: #ffffff;
+
+
+/* Media Query */
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 767px) {
+
+}
+
+@media only screen and (max-width : 1023px) {
+
+}
+
+@media only screen and (max-width : 1200px) {
+
+  .office img {
+    padding: 0 10%;
   }
+  
+}
+
+
 
 body p {
     font-size: 14px;
